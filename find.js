@@ -32,14 +32,9 @@ function formatResult( phone , op_type , content){
 
 function find(phone_ori){
     var phone = parseInt( (phone_ori+'').substr(0,7) );
-    var i =0;
-
     var left =0, right = size-1;
-
     while( left <= right  ){
-        
-        var pos =  Math.floor((right + left)/2); 
-       
+        var pos =  ((right + left)/2)|0; 
         var index = buf.readInt32LE(index_offset + pos*9 , 4);
         if(index < phone ){
             if( left === pos  ){
