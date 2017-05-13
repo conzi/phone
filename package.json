@@ -1,0 +1,19 @@
+{
+  "name": "mobilequery",
+  "version": "1.0.0",
+  "description": "手机号归属地查询",
+  "main": "find.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conzi/mobilequery.git"
+  },
+  "author": "tconzi@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/conzi/mobilequery/issues"
+  },
+  "homepage": "https://github.com/conzi/mobilequery#readme"
+}
