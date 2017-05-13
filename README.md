@@ -1,12 +1,15 @@
-# mobilequery
+# node phone query 
 
 手机归属地查询node版本
 
+
 数据来源：<https://github.com/lovedboy/phone>
 
+
 用法：
+
 ```
-   const find = require('./find.js');
+   const find = require('./index.js');
    let result = find(13800138000);
    /* //返回值：
     { 
