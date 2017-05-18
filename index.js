@@ -1,6 +1,6 @@
 const fs =require('fs');
 
-const buf= fs.readFileSync('./phone.dat');
+const buf= fs.readFileSync(__dirname + '/phone.dat');
 
 const index_offset = buf.readInt32LE(4, 4);
 const size = (buf.length  - index_offset)/9;
