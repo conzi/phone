@@ -9,9 +9,10 @@
 用法：
 
 ```
-   const find = require('./index.js');
+   const find = require('phone-query');
    let result = find(13800138000);
-   /* //返回值：
+   /* 
+    //返回值：
     { 
           phone: 13800138000,
            op: '移动',
@@ -20,5 +21,6 @@
            zip_code: '100000',
            area_code: '010'
     }
+
     */
 ```
