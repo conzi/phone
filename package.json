@@ -1,6 +1,6 @@
 {
   "name": "phone-query",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "手机号归属地查询",
   "main": "index.js",
   "scripts": {
