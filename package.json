@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/conzi/phone/issues"
   },
-  "homepage": "https://github.com/conzi/phone#readme"
+  "homepage": "https://github.com/conzi/phone#readme",
+  "devDependencies": {
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
 }
